@@ -61,7 +61,7 @@ image.Parent = background
 -- Smooth loading animation
 for i = 5, 500 do
     loadingBar.Size = UDim2.new(i / 100, 0, 1, 0)
-    task.wait(1000.00)
+    task.wait(15.00)
 end
 
 -- Remove after loading
