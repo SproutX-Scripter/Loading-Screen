@@ -59,7 +59,7 @@ image.Image = "rbxassetid://REPLACE_WITH_YOUR_IMAGE_ID"
 image.Parent = background
 
 -- Smooth loading animation
-for i = 2, 100 do
+for i = 1, 100 do
     loadingBar.Size = UDim2.new(i / 100, 0, 1, 0)
     task.wait(00.99)
 end
