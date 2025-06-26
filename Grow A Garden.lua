@@ -55,7 +55,7 @@ local image = Instance.new("ImageLabel")
 image.Size = UDim2.new(0, 80, 0, 80)
 image.Position = UDim2.new(0.02, 0, 0.02, 0)
 image.BackgroundTransparency = 1
-image.Image = "rbxassetid://REPLACE_WITH_YOUR_IMAGE_ID"
+image.Image = "rbxassetid://109501573735453"
 image.Parent = background
 
 -- Smooth loading animation
